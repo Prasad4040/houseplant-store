@@ -1,0 +1,49 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Make it take up the full viewport height */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  .landing-page button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .landing-page {
+    /* ... other styles ... */
+    background-image: url('/images/landing-bg.jpg'); /* Adjust the path if needed */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is readable on the background */
+  }
+  
+  /* You might need to adjust the text styles for better visibility */
+  .landing-page h1,
+  .landing-page p {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the text for better readability */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .landing-page button {
+    /* ... button styles ... */
+    background-color: #4CAF50; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }

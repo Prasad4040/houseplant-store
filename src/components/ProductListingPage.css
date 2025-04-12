@@ -1,0 +1,38 @@
+.plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .plant-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .plant-card img {
+    margin-bottom: 10px;
+  }
+  
+  .plant-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .plant-card p {
+    margin-bottom: 10px;
+    color: green; /* Example price color */
+  }
+  
+  .plant-card button {
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
